@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Merve Birsin <mervebr34@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chat",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/mervebirsinnn/Chat.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.7.8"
+  }
+}
