@@ -8,8 +8,9 @@ const dotenv = require('dotenv');
 dotenv.config();
 const index = require('./routes/index');
 const users = require('./routes/users');
-
+//const mongoose=require('mongoose');
 const app = express();
+const db=require('./helpers/db')();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
